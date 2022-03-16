@@ -1,0 +1,8 @@
+.two-columns {
+    margin: 100px 0 0 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+}

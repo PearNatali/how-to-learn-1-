@@ -1,0 +1,10 @@
+.two-columns__main-text {
+    margin: 0;
+    width: 80%;
+    min-width: 784px;
+    text-align: left;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+}
