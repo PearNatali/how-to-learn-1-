@@ -1,0 +1,9 @@
+.khan__container {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+}
