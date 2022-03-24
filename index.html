@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="pages/index.css"/>
 </head>
 <body>
   <div class="page">
@@ -18,7 +18,7 @@
         использовать в своей жизни? <a href="" class="header__link" target="_blank">Узнать &rarr;</a></p>
       <img class="header__main-illustation" src="./images/header-image.png" alt="Мальчик 
       с картины Ф.П. Решетникова 'Опять двойка'"/> 
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     
     <main class="content">
@@ -44,7 +44,7 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-attention.png" alt="Книга '101 
+            <img class="cards__image" src="./images/cards-attention.png" alt="Книга '101 
             essays that will change the way you think'"/>
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие значения возникают, если чередовать
@@ -52,28 +52,28 @@
           </li>
 
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-recall.png" alt="Скульптура мальчика с дудкой"/>
+            <img class="cards__image" src="./images/cards-recall.png" alt="Скульптура мальчика с дудкой"/>
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное – это позволит соединить
               разрозненные порции памяти.</p>
           </li>
 
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-interliving.png" alt="Купольные своды здания"/>
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Купольные своды здания"/>
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно,
               они обогащают друг друга.</p>
           </li>
 
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-question.png" alt="Купольные своды здания"/>
+            <img class="cards__image" src="./images/cards-question.png" alt="Купольные своды здания"/>
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший
               вопрос, который вас действительно волнует.</p>
           </li>
 
           <li class="cards__item">
-            <img class="cards__image" src="/images/cards-competence.png" alt="Купольные своды здания"/>
+            <img class="cards__image" src="./images/cards-competence.png" alt="Купольные своды здания"/>
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите
               другу: вам только кажется, что вы владеете новой темой.</p>
@@ -87,21 +87,17 @@
       <section class="video">
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <div class="video__iframes">
-          <!--Ниже указан тект, который будет появляться у пользователей, взаимодействующих с сайтом со старых 
-          браузеров.-->
-            <iframe class="video__iframe" id="ytplayer" width="515" height="316"
-          src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>Здравствуйте, ваш браузер не может показать это видео, потому что не поддерживает iframe.</iframe>
-            <iframe class="video__iframe" id="ytplayer" width="515" height="316" 
-          src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>Здравствуйте, ваш браузер не может показать это видео, потому что не поддерживает iframe.</iframe>
-          </div>
+          <ul class="video__iframes">
+            <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+            <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+          </ul>
       </section>   
 
       <section class="oakley">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли</h2>
           <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">С детства Барбаре не давалась математика. 
+            <p class="two-columns__paragraph two-columns__paragraph_oakley">С детства Барбаре не давалась математика. 
               Она считала себя законченным гуманитарием, причём далеко не самым умным. 
               В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что 
               её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику.
@@ -174,7 +170,7 @@
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир – школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняет процесс обучения
-            миллионов студентов по всему миру. Внигу "Весь мир – школа" нужно прочитать всем, 
+            миллионов студентов по всему миру. Книгу "Весь мир – школа" нужно прочитать всем, 
             кто занимается образованием – так учащиеся повсюду смогут получить навыки и знания, 
             которые приносят успех в школе, карьере и жизни.</p>
           <h4 class="khan__quote-author">Джордж Лукас</h4>
@@ -240,19 +236,19 @@
             <p class="table__text">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img class="kaufman__trangle" src="./images/kaufman-triangle.svg" alt="Вращающийся треугольник"/>
+        <img class="kaufman__trangle rotation" src="./images/kaufman-triangle.svg" alt="Вращающийся треугольник"/>
       
       </section>
 
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <link href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Ссылка на 'Алмаз'"/>
-          <link href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Ссылка на 'N+1'"/>
-          <link href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Ссылка на 'Стрелка'"/>
-          <link href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Ссылка на 'Полка'"/>
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Ссылка на 'Алмаз'"></a></li>
+          <li><a href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Ссылка на 'N+1'"></a></li>
+          <li><a href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Ссылка на 'Стрелка'"></a></li>
+          <li><a href="" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Ссылка на 'Полка'"></a></li>
+        </ul>
       </section>
 
     </main>

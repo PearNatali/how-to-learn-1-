@@ -1,0 +1,7 @@
+.two-columns__paragraph_oakley {
+    margin: 0;
+}
+
+.two-columns__paragraph_oakley:last-of-type {
+    margin: 0;
+}

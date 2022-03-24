@@ -7,6 +7,5 @@
   background-color: #2f80ed;
   background-size: cover;
   z-index: 2;
-  animation: rotation 20s infinite linear;
   overflow: hidden;
 }

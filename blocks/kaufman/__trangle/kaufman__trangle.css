@@ -6,6 +6,5 @@
     height: 877px;
     background-image: url('../images/kaufman-trangle.svg');
     z-index: 5;
-    animation: rotation 20s infinite linear;
     overflow: hidden;
 }
